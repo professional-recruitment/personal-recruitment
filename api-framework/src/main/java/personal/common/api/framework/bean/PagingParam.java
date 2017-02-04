@@ -1,6 +1,9 @@
 package personal.common.api.framework.bean;
 
 
+import java.util.HashMap;
+import java.util.Map;
+import personal.common.api.framework.util.JsonUtil;
 import personal.common.api.framework.util.StringUtil;
 
 /**
@@ -76,8 +79,11 @@ public class PagingParam {
         return limit;
     }
 
-    public String getWhereCondition(String columnName) {
-        return StringUtil.isNotEmpty(search) ? columnName + " LIKE '%" + search + "%'" : null;
+    public Map<String, Object> getWhereCondition() {
+        if (this.search == null) {
+            return new HashMap<>();
+        }
+        return JsonUtil.objectToMap(this.search);
     }
 
     public String getOrderBy() {

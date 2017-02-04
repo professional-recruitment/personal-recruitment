@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="ResumeMapper">
+
+    <!--<cache type="com.adchina.api.jdbc.cache.RedisCache"/>-->
+
+    <select id="selectPaging" resultType="ResumeResult">
+        SELECT id, name, status,create_time,last_mod_time FROM resume
+        <where>
+            <if test="name != null">name like '%#{name}%' </if>
+        </where>
+        <if test="orderBy != null">
+            ORDER BY ${orderBy}
+        </if>
+    </select>
+
+    <select id="selectById" resultType="ResumeResult">
+        SELECT id, name, status, created_time, last_mod_time FROM resume WHERE id = #{id}
+    </select>
+
+    <update id="update">
+        UPDATE resume
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="status != null">status = #{stauts},</if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <delete id="delete">
+        DELETE FROM resume WHERE id = #{id}
+    </delete>
+
+    <insert id="insert">
+        INSERT INTO resume (id, name, create_time, last_mod_time)
+        VALUES (#{id}, #{name}, now(), now())
+    </insert>
+
+</mapper>

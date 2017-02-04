@@ -46,7 +46,7 @@
     <!--<bean id="tokenManager" class="personal.common.api.framework.security.impl.DefaultTokenManager"/>-->
     <bean id="tokenManager" class="personal.common.api.framework.security.impl.RedisTokenManager">
         <property name="jedisPool" ref="jedisPool"/>
-        <property name="database" value="15"/>
+        <property name="database" value="0"/>
         <property name="seconds" value="3600"/>
     </bean>
 

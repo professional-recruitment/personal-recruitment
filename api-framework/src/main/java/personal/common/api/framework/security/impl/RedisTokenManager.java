@@ -48,6 +48,9 @@ public class RedisTokenManager implements TokenManager {
 
     @Override
     public boolean checkToken(String token) {
+        if (token == null && token.isEmpty()) {
+            return false;
+        }
         boolean result;
         try (Jedis jedis = jedisPool.getResource()) {
             jedis.select(database);

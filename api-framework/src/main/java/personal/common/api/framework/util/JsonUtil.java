@@ -1,5 +1,8 @@
 package personal.common.api.framework.util;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import java.io.IOException;
+import java.util.Map;
 import personal.common.api.framework.json.CustomObjectMapper;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -37,5 +40,32 @@ public final class JsonUtil {
             throw new RuntimeException(e);
         }
         return pojo;
+    }
+
+    public static Map objectToMap(Object object) {
+        Map map;
+        try {
+            String result = objectMapper.writeValueAsString(object);
+            map = objectMapper.readValue(result, Map.class);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException("json转换异常");
+        } catch (IOException e) {
+            throw new RuntimeException("json转换异常");
+        }
+
+        return map;
+    }
+
+    public static Map objectToMap(String object) {
+        Map map;
+        try {
+            map = objectMapper.readValue(object, Map.class);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException("json转换异常");
+        } catch (IOException e) {
+            throw new RuntimeException("json转换异常");
+        }
+
+        return map;
     }
 }

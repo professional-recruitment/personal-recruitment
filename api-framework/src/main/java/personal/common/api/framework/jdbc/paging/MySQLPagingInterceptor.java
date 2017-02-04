@@ -14,7 +14,7 @@ import java.sql.Connection;
  * @since 1.0.0
  */
 @Intercepts(
-    @Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class})
+        @Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class, Integer.class})
 )
 public class MySQLPagingInterceptor extends AbstractPagingInterceptor {
 

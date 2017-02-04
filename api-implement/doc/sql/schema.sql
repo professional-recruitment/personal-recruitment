@@ -1,15 +1,16 @@
-CREATE DATABASE `goldmine`;
+CREATE DATABASE `resume`;
 
-USE `goldmine`;
+USE `resume`;
 
-CREATE TABLE `advertiser` (
-  `id` char(32) NOT NULL,
-  `advertiser_name` varchar(64) NOT NULL COMMENT '名称',
-  `description` varchar(1024) DEFAULT '' COMMENT '描述',
-  `created_time` char(19) NOT NULL COMMENT '创建时间',
-  `last_modified` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '最后修改时间',
+CREATE TABLE `resume` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(200) DEFAULT NULL,
+  `status` int(11) NOT NULL DEFAULT '1' COMMENT '-1:del,1:normal',
+  `create_time` datetime NOT NULL,
+  `last_mod_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 
 CREATE TABLE `log` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ID',

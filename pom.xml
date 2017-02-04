@@ -37,13 +37,9 @@
             <filter>../config/${env}.properties</filter>
         </filters>
         <resources>
+            <!-- Resource Filter -->
             <resource>
                 <directory>src/main/resources</directory>
-                <includes>
-                    <include>*.properties</include>
-                    <include>*.xml</include>
-                    <include>mapper/*.xml</include>
-                </includes>
                 <filtering>true</filtering>
             </resource>
         </resources>
@@ -51,6 +47,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
                 <configuration>
                     <archive>
                         <manifest>
