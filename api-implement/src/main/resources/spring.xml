@@ -22,6 +22,7 @@
         <property name="maxTotal" value="${jdbc.max_total}"/>
         <property name="maxIdle" value="${jdbc.max_idle}"/>
         <property name="minIdle" value="${jdbc.min_idle}"/>
+        <property name="defaultQueryTimeout" value="5" />
         <property name="testOnBorrow" value="${jdbc.test_on_borrow}"/>
         <property name="testOnReturn" value="${jdbc.test_on_return}"/>
     </bean>
