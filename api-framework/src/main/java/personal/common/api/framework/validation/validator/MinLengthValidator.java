@@ -8,7 +8,7 @@ import javax.validation.ConstraintValidatorContext;
 /**
  * 最小长度注解验证器
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class MinLengthValidator implements ConstraintValidator<MinLength, String> {

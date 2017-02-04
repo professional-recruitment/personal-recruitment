@@ -14,7 +14,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 /**
  * 基于 Redis 的缓存
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class RedisCache implements Cache {

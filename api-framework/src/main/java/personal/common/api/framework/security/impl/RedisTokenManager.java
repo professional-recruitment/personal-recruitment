@@ -8,7 +8,7 @@ import redis.clients.jedis.JedisPool;
 /**
  * 基于 Redis 的令牌管理器
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class RedisTokenManager implements TokenManager {

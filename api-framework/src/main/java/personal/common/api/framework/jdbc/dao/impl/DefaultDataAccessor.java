@@ -14,7 +14,7 @@ import java.util.Map;
 /**
  * 数据访问器接口默认实现（基于 MyBatis）
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class DefaultDataAccessor implements DataAccessor {

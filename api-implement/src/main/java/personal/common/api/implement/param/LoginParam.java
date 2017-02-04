@@ -5,7 +5,7 @@ import personal.common.api.framework.validation.NotEmpty;
 /**
  * 登录参数对象
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class LoginParam {

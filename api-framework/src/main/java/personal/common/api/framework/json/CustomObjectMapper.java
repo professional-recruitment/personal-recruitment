@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
 /**
  * 定制 Jackson 的 ObjectMapper
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class CustomObjectMapper extends ObjectMapper {

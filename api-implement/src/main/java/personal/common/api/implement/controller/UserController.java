@@ -16,7 +16,7 @@ import javax.validation.Valid;
 /**
  * 用户控制器
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 @RestController

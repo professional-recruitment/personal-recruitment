@@ -3,7 +3,7 @@ package personal.common.api.implement.constant;
 /**
  * 消息代码
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public interface Message {

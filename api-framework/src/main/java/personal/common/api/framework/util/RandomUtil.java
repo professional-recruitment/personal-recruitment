@@ -5,7 +5,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 /**
  * 随机数工具类
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public final class RandomUtil {

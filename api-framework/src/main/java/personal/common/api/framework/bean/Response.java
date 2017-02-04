@@ -3,7 +3,7 @@ package personal.common.api.framework.bean;
 /**
  * 响应对象
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class Response {

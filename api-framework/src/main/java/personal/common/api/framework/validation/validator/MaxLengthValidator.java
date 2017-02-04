@@ -8,7 +8,7 @@ import javax.validation.ConstraintValidatorContext;
 /**
  * 最大长度注解验证器
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class MaxLengthValidator implements ConstraintValidator<MaxLength, String> {

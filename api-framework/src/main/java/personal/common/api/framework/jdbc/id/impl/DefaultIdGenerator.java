@@ -10,7 +10,7 @@ import java.util.UUID;
 /**
  * ID 生成器接口默认实现
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class DefaultIdGenerator implements IdGenerator {

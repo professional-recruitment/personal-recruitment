@@ -9,7 +9,7 @@ import personal.common.api.framework.util.StringUtil;
 /**
  * 分页参数对象
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class PagingParam {

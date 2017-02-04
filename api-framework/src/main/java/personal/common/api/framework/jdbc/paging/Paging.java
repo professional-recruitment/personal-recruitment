@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 分页对象
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class Paging<T> {

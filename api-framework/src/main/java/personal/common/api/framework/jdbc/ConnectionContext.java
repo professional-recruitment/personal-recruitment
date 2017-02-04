@@ -12,7 +12,7 @@ import java.util.Properties;
 /**
  * 数据库连接上下文
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class ConnectionContext {

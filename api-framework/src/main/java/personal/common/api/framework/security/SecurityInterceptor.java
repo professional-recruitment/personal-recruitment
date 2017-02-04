@@ -11,7 +11,7 @@ import java.lang.reflect.Method;
 /**
  * 用于检查 token 的拦截器
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class SecurityInterceptor extends HandlerInterceptorAdapter {

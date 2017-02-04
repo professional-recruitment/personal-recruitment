@@ -14,7 +14,7 @@ import java.sql.SQLException;
 /**
  * 基于数据库的日志 Appender
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public abstract class LogAppender extends AppenderSkeleton {

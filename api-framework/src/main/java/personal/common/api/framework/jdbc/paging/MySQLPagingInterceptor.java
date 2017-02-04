@@ -10,7 +10,7 @@ import java.sql.Connection;
 /**
  * 基于 MySQL 的 MyBatis 分页拦截器实现
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 @Intercepts(

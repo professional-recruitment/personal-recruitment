@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * 用于管理 WebContext 对象的生命周期
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class WebContextFilter implements Filter {

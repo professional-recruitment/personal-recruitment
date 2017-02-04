@@ -3,7 +3,7 @@ package personal.common.api.implement.bean;
 /**
  * 用户对象
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class UserBean {

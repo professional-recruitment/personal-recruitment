@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * 数据访问器接口
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public interface DataAccessor {

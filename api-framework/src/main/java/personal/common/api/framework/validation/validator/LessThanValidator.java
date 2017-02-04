@@ -8,7 +8,7 @@ import javax.validation.ConstraintValidatorContext;
 /**
  * 小于值注解验证器
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class LessThanValidator implements ConstraintValidator<LessThan, Integer> {

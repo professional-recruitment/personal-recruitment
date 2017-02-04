@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 用于封装 Request 与 Response 对象
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class WebContext {

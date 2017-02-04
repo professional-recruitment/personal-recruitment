@@ -8,7 +8,7 @@ import javax.validation.ConstraintValidatorContext;
 /**
  * 大于值注解验证器
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class GreaterThanValidator implements ConstraintValidator<GreaterThan, Integer> {

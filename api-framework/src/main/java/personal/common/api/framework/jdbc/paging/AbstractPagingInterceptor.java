@@ -20,7 +20,7 @@ import java.util.Properties;
 /**
  * MyBatis 分页拦截器抽象类
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public abstract class AbstractPagingInterceptor implements Interceptor {

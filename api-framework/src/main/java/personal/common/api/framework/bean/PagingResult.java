@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 分页结果对象
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class PagingResult<T> {

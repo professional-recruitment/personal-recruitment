@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * ID 生成器接口
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public interface IdGenerator {

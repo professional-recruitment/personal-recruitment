@@ -6,7 +6,7 @@ import java.util.Date;
 /**
  * 广告主结果对象
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class AdvertiserResult implements Serializable {

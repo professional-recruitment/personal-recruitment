@@ -8,7 +8,7 @@ import javax.validation.ConstraintValidatorContext;
 /**
  * 等于长度注解验证器
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class EqualLengthValidator implements ConstraintValidator<EqualLength, String> {

@@ -11,7 +11,7 @@ import java.util.Date;
 /**
  * 应用日志 Appender
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class AppLogAppender extends LogAppender {

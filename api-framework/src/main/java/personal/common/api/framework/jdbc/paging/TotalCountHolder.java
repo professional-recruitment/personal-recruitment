@@ -3,7 +3,7 @@ package personal.common.api.framework.jdbc.paging;
 /**
  * 使每个线程拥有自己的 totalCount 变量
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class TotalCountHolder {

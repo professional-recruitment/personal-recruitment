@@ -8,7 +8,7 @@ import redis.clients.jedis.JedisPoolConfig;
 /**
  * JedisPool 工厂
  *
- * @author huangyong
+ * @author anyone
  * @since 1.0.0
  */
 public class JedisPoolFactoryBean implements FactoryBean<JedisPool>, InitializingBean {
