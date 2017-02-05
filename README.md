@@ -1,5 +1,7 @@
 # personal-recruitment
 --------------
++ git
+	+ git安装教程：http://www.jb51.net/article/55440.htm
 + jdk
 	- 安装jdk
 	- 配置java环境
