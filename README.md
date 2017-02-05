@@ -16,5 +16,5 @@
 + tomcat
 + word分词
 	- http://www.oschina.net/p/word
-+ luence 全文检索
++ lucene 全文检索
 	- http://www.cnblogs.com/xing901022/p/3933675.html 
