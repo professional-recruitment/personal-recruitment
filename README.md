@@ -1,7 +1,8 @@
 # personal-recruitment
 --------------
 + git
-	+ git安装教程：http://www.jb51.net/article/55440.htm
+	+ git安装教程：http://www.jb51.net/article/55440.htm 
+	+ git下载地址：https://git-for-windows.github.io/
 + jdk
 	- 安装jdk
 	- 配置java环境
