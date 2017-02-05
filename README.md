@@ -13,7 +13,8 @@
 	-  http://apache.fayea.com/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.zip 
 + redis可视化工具：http://rj.baidu.com/soft/detail/29740.html?ald 
 + mysql 
-+ tomcat
++ tomcat 
++ xshell:http://rj.baidu.com/soft/detail/15201.html?ald
 + word分词
 	- http://www.oschina.net/p/word
 + lucene 全文检索
